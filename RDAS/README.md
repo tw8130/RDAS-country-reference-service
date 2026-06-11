@@ -97,7 +97,7 @@ kubernetes
 
 ### Clone Repository
 
-git clone <repository-url>
+git clone https://github.com/tw8130/RDAS-country-reference-service.git
 
 cd RDAS
 
