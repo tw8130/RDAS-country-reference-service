@@ -115,7 +115,13 @@ mvn spring-boot:run
 
 Swagger UI:
 
-http://localhost:8080/swagger-ui.html
+Swagger/OpenAPI has been configured using springdoc-openapi.
+
+Once the application is started, the API documentation will be available at:
+
+http://localhost:8080/swagger-ui/index.html
+
+Due to environment constraints during submission preparation, the application was not executed locally. The OpenAPI configuration and annotations have been included in the source code and can be accessed once the application is built and started using Java 17 and Maven.
 
 ---
 
