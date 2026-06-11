@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: rdas
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+soap:
+  wsdl-url: http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL
+
+cache:
+  ttl-hours: 24
